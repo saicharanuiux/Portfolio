@@ -1,0 +1,84 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    min-height: 100vh;
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  
+  .about-picture {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .profile-picture {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    object-fit: cover;
+  }
+  
+  .about-text {
+    flex: 2;
+    max-width: 500px;
+    text-align: justify;
+  }
+  
+  .about-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .skills-section {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .skills-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .skill img {
+    width: 40px; /* Reduced from 60px */
+    height: 40px; /* Reduced from 60px */
+    margin-bottom: 8px; /* Adjusted for proportion */
+  }
+  
+  .skill p {
+    font-size: 0.85rem; /* Slightly smaller font for skill names */
+  }
+
+  .rsm-btn{ padding: 10px 20px; font-size:16px; background: white !important; color: black !important; }
+  
