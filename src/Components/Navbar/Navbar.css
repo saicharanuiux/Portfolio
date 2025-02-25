@@ -1,0 +1,67 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #000000 !important; /* Black Background */
+    padding: 15px 20px;
+    border-bottom: 0.5px solid #141313; /* Blue Line for Style */
+}
+
+/* Navbar Brand (Logo/Title) */
+.navbar-brand {
+    color: #ffffff !important; /* Neon Cyan */
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #3b3b3b !important; /* Electric Blue Hover */
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* Light Gray */
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+/* Hover Effect (Electric Blue) */
+.navbar-nav .nav-link:hover {
+    color: #3b3b3b  !important; /* Neon Cyan */
+}
+
+/* Cool Underline Effect */
+.navbar-nav .nav-link::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background: #000000;
+    transition: width 0.3s ease-in-out;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+/* Mobile Navbar Toggle */
+.navbar-toggler {
+    border: 1px solid #ffffff; /* Neon Cyan Border */
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler:hover {
+    border-color: #3b3b3b ; /* Electric Blue Hover */
+}
+
+/* Navbar Toggler Icon */
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
