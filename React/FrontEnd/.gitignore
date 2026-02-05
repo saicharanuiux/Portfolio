@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Backend (ASP.NET) build + IDE artifacts
+Backend/Portfolio/.vs/
+Backend/Portfolio/bin/
+Backend/Portfolio/obj/

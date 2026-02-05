@@ -1,0 +1,5 @@
+# Backend (ASP.NET) build + IDE artifacts
+Backend/Portfolio/.vs/
+Backend/Portfolio/bin/
+Backend/Portfolio/obj/
+
