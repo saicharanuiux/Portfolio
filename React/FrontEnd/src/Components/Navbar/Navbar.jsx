@@ -1,9 +1,16 @@
 
 import { useNavigate } from "react-router-dom";
 import "./Navbar.css"
+import { authService } from "../../Services/AuthService.js";
 
 export default function Navbar() {
 
+  const navigate = useNavigate();
+
+  const logout = () => {
+    authService.logout();
+    navigate("/login");
+  };
 
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -34,16 +41,17 @@ export default function Navbar() {
                 Contact
               </a>
             </li>
-            
+            <li className="nav-item">
+              <a className="nav-link" onClick={logout}>
+                Logout
+              </a>
+            </li>
+
           </ul>
-           
+
         </div>
       </div>
     </nav>
   );
-}
-
-Navbar.defaultProps = {
-    title : "Charan Vadla"
 }
 

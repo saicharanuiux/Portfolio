@@ -64,7 +64,7 @@ export default function About() {
         <div className="about-text">
           <h1>Who is Charan Vadla ?</h1>
           <p>
-          Results-driven .NET Full Stack Developer with 3 years of hands-on experience in designing, developing, and deploying
+          Results-driven Full Stack Developer with hands-on experience in designing, developing, and deploying
 web applications. Procient in both front-end and back-end technologies. Adept at Agile methodologies, version
 control and CI/CD pipelines. Known for delivering ecient, scalable, and user-friendly applications, while
 collaborating with cross-functional teams to meet business requirements.
