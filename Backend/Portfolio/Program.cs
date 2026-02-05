@@ -23,9 +23,34 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 
-builder.Services.AddDbContext<UserDbContext>(options => {     
+builder.Services.AddDbContext<UserDbContext>(options =>
+{
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+using (var scope = builder.Services.BuildServiceProvider().CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<UserDbContext>();
+
+    var googleConfig = db.OAuthConfigs
+        .Where(x => x.Provider == "Google")
+        .Select(x => new { x.ClientId, x.ClientSecret, x.CallbackPath })
+        .FirstOrDefault();
+
+    if (googleConfig == null)
+        throw new Exception("Google OAuth config missing in DB");
+
+    builder.Services.AddAuthentication()
+        .AddGoogle("Google", options =>
+        {
+            options.ClientId = googleConfig.ClientId;
+            options.ClientSecret = googleConfig.ClientSecret;
+            options.CallbackPath = googleConfig.CallbackPath;
+            options.SignInScheme = "External";
+        })
+     .AddCookie("External");
+}
+
 
 builder.Services
     .AddAuthentication(options =>
@@ -65,18 +90,8 @@ builder.Services
             ClockSkew = TimeSpan.Zero,
             RoleClaimType = ClaimTypes.Role
         };
-    })
-    .AddCookie("External")
-    .AddGoogle("Google", options =>
-    {
-        options.ClientId = builder.Configuration["Authentication:Google:ClientId"]!;
-        options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"]!;
-        options.CallbackPath = "/signin-google";
-        options.SaveTokens = true;
-        options.SignInScheme = "External";
     });
 
-var google = builder.Configuration.GetSection("Authentication:Google");
 
 builder.Services.AddAuthorization(options =>
 {
@@ -97,7 +112,8 @@ app.UseCors(builder =>
            .AllowAnyMethod()
            .AllowAnyHeader());
 
-app.Use(async (context, next) => {
+app.Use(async (context, next) =>
+{
     var authHeader = context.Request.Headers["Authorization"].ToString();
     Console.WriteLine($"[DEBUG] Path: {context.Request.Path}");
     Console.WriteLine($"[DEBUG] Auth Header: {authHeader}");
