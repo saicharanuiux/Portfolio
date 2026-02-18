@@ -5,6 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using Portfolio.DataContext;
 using Portfolio.IServices;
 using Portfolio.Services;
+using StackExchange.Redis;
 using System.Security.Claims;
 using System.Text;
 
@@ -20,8 +21,14 @@ builder.Services.AddControllers();
 //builder.Services.AddEndpointsApiExplorer();
 //builder.Services.AddSwaggerGen();
 
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddHttpClient();
+
+
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<ICacheService, CacheService>();
+builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 
 builder.Services.AddDbContext<UserDbContext>(options =>
 {
@@ -47,6 +54,9 @@ using (var scope = builder.Services.BuildServiceProvider().CreateScope())
             options.ClientSecret = googleConfig.ClientSecret;
             options.CallbackPath = googleConfig.CallbackPath;
             options.SignInScheme = "External";
+
+            options.Scope.Add("https://www.googleapis.com/auth/drive.readonly");
+            options.SaveTokens = true;
         })
      .AddCookie("External");
 }
@@ -58,6 +68,10 @@ builder.Services
         options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
         options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
         options.DefaultSignInScheme = "External";
+    })
+    .AddCookie(options =>
+    {
+        options.Cookie.Name = "accessToken";
     })
     .AddJwtBearer(options =>
     {
@@ -72,6 +86,15 @@ builder.Services
                 Console.WriteLine("JWT FAILED:");
                 Console.WriteLine(context.Exception.GetType().Name);
                 Console.WriteLine(context.Exception.Message);
+                return Task.CompletedTask;
+            },
+            OnMessageReceived = context =>
+            {
+                var accessToken = context.Request.Cookies["accessToken"];
+                if (!string.IsNullOrEmpty(accessToken))
+                {
+                    context.Token = accessToken;
+                }
                 return Task.CompletedTask;
             }
         };
@@ -96,6 +119,18 @@ builder.Services
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
+});
+
+builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+{
+    var configuration = builder.Configuration.GetConnectionString("Redis");
+
+    var options = ConfigurationOptions.Parse(configuration);
+   // options.AbortOnConnectFail = false;
+    options.ConnectRetry = 5;
+    options.ConnectTimeout = 5000;
+
+    return ConnectionMultiplexer.Connect(options);
 });
 
 

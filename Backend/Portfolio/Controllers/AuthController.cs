@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Portfolio.Entities;
 using Portfolio.IServices;
 using Portfolio.Modals;
+using Portfolio.Models;
 using System.Security.Claims;
 
 namespace Portfolio.Controllers
@@ -11,7 +12,7 @@ namespace Portfolio.Controllers
     
     [ApiController]
     [Route("api/[controller]")]
-    public class AuthController(IAuthService authService) : ControllerBase
+    public class AuthController(IAuthService authService, IConfiguration configuration, ICurrentUserService currentUserService) : ControllerBase
     {
 
         [HttpPost("register")]
@@ -36,25 +37,33 @@ namespace Portfolio.Controllers
             {
                 return BadRequest("Invalid credentials.");
             }
-            return Ok(token);
+            return Ok();
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet("logout")]
+        public async Task<ActionResult> Logout()
+        {
+           await authService.Logout();
+           return Ok("Logged out successfully.");
         }
 
         [Authorize]
         [HttpGet]
-        public IActionResult AuthenticatedOnlyEndpoint()
+        public ActionResult AuthenticatedOnlyEndpoint()
         {
             return Ok("You are authenticated!");
         }
 
         [Authorize(Roles = "Admin")]
         [HttpGet("admin-only")]
-        public IActionResult AdminOnlyEndpoint()
+        public ActionResult AdminOnlyEndpoint()
         {
             return Ok("You are and admin!");
         }
 
         [HttpGet("google")]
-        public IActionResult GoogleLogin()
+        public ActionResult GoogleLogin()
         {
             var properties = new AuthenticationProperties
             {
@@ -65,18 +74,25 @@ namespace Portfolio.Controllers
         }
 
         [HttpGet("google-callback")]
-        public async Task<IActionResult> GoogleCallback()
+        public async Task<ActionResult> GoogleCallback()
         {
-            var result = await HttpContext.AuthenticateAsync("External");
+            AuthenticateResult result = await HttpContext.AuthenticateAsync("External");
 
-            if (!result.Succeeded)
+            string jwt = await authService.LoginWithGmail(result);
+
+            if (string.IsNullOrEmpty(jwt))
+            {
                 return Unauthorized();
+            }
 
-            var email = result.Principal.FindFirst(ClaimTypes.Email)?.Value;
+            return Redirect($"{configuration.GetValue<string>("Host")}/oauth-success?token={jwt}");
+        }
 
-            var jwt = await authService.LoginWithGmail(email);
-
-            return Redirect($"http://localhost:3000/oauth-success?token={jwt}");
+        [Authorize(Roles="Admin")]
+        [HttpGet("getUserDetails")]
+        public CurrentUser GetUserDetails()
+        {
+            return currentUserService.GetCurrentUser();
         }
     }
 }

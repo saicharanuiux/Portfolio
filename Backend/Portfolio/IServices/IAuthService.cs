@@ -1,4 +1,5 @@
-﻿using Portfolio.Entities;
+﻿using Microsoft.AspNetCore.Authentication;
+using Portfolio.Entities;
 using Portfolio.Modals;
 
 namespace Portfolio.IServices
@@ -7,7 +8,8 @@ namespace Portfolio.IServices
     {
         Task<User> RegisterAsync(UserDTO request);
         Task<string> LoginAsync(UserDTO request);
-
-        Task<string> LoginWithGmail (string email);
+        Task Logout();
+        Task<string> LoginWithGmail (AuthenticateResult result);
+        Task<byte[]> ReadFileFromDrive(string userId, string fileId);
     }
 }
