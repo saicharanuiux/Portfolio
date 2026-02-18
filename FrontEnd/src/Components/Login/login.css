@@ -1,0 +1,90 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+.login-card {
+    background: var(--color-surface);
+    padding: 32px;
+    width: 360px;
+    border-radius: 10px;
+    box-shadow: var(--color-shadow);
+    display: flex;
+    flex-direction: column;
+}
+
+.login-card h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--color-text);
+}
+
+.login-card input {
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font-size: 14px;
+    background: transparent;
+    color: var(--color-text);
+}
+
+.login-card input::placeholder {
+    color: var(--color-muted);
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: var(--color-primary-hover);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+    font-size: 13px;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+.divider {
+    text-align: center;
+    margin: 16px 0;
+    color: var(--color-muted);
+    font-size: 13px;
+}
+
+.btn-oauth {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.btn-oauth.google {
+    background: #db4437;
+    color: #ffffff;
+}
+
+.btn-oauth.github {
+    background: #24292e;
+    color: white;
+}

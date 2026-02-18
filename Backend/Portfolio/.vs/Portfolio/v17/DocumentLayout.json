@@ -3,44 +3,72 @@
   "WorkspaceRootPath": "D:\\Portfolio\\Backend\\Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\iservices\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:iservices\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\portfolio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:portfolio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\iservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:iservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\modals\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:modals\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\services\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:services\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Portfolio\\Backend\\Portfolio\\Modals\\Status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Modals\\Status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\modals\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:modals\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\iservices\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:iservices\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\iservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:iservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\datacontext\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:datacontext\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\datacontext\\userdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:datacontext\\userdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\entities\\oauthconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:entities\\oauthconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|d:\\portfolio\\backend\\portfolio\\migrations\\20260205233545_addoauthconfigstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250AF2C6-EE2F-422E-811D-D7B435881443}|Portfolio.csproj|solutionrelative:migrations\\20260205233545_addoauthconfigstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,132 +78,215 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Status.cs",
-              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Modals\\Status.cs",
-              "RelativeDocumentMoniker": "Modals\\Status.cs",
-              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Modals\\Status.cs",
-              "RelativeToolTip": "Modals\\Status.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T14:35:01.631Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Email.cs",
-              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Modals\\Email.cs",
-              "RelativeDocumentMoniker": "Modals\\Email.cs",
-              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Modals\\Email.cs",
-              "RelativeToolTip": "Modals\\Email.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAdAAAA",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAuwE0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T13:40:55.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Services\\EmailService.cs",
-              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Services\\EmailService.cs",
-              "RelativeToolTip": "Services\\EmailService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T16:07:32.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Portfolio.csproj",
-              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Portfolio.csproj",
-              "RelativeDocumentMoniker": "Portfolio.csproj",
-              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Portfolio.csproj",
-              "RelativeToolTip": "Portfolio.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-25T16:06:57.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\IServices\\IEmailService.cs",
-              "RelativeDocumentMoniker": "IServices\\IEmailService.cs",
-              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\IServices\\IEmailService.cs",
-              "RelativeToolTip": "IServices\\IEmailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T16:04:37.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PortfolioController.cs",
-              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Controllers\\PortfolioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PortfolioController.cs",
-              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Controllers\\PortfolioController.cs",
-              "RelativeToolTip": "Controllers\\PortfolioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T11:14:45.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-21T11:09:16.372Z"
+              "WhenOpened": "2026-02-05T22:37:52.77Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "CurrentUser.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Modals\\CurrentUser.cs",
+              "RelativeDocumentMoniker": "Modals\\CurrentUser.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Modals\\CurrentUser.cs",
+              "RelativeToolTip": "Modals\\CurrentUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T15:42:24.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAVAAAA",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAAJIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T10:58:10.836Z"
+              "WhenOpened": "2026-02-03T11:43:47.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-05T23:46:43.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\IServices\\ICacheService.cs",
+              "RelativeDocumentMoniker": "IServices\\ICacheService.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\IServices\\ICacheService.cs",
+              "RelativeToolTip": "IServices\\ICacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T14:32:59.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwEQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T22:37:35.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "DatabaseContext.cs",
-              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Services\\DatabaseContext.cs",
-              "RelativeDocumentMoniker": "Services\\DatabaseContext.cs",
-              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Services\\DatabaseContext.cs",
-              "RelativeToolTip": "Services\\DatabaseContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\IServices\\IAuthService.cs",
+              "RelativeDocumentMoniker": "IServices\\IAuthService.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\IServices\\IAuthService.cs",
+              "RelativeToolTip": "IServices\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T15:42:18.446Z"
+              "WhenOpened": "2026-02-06T13:10:16.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CacheService.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Services\\CacheService.cs",
+              "RelativeDocumentMoniker": "Services\\CacheService.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Services\\CacheService.cs",
+              "RelativeToolTip": "Services\\CacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T14:27:04.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICurrentUserService.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\IServices\\ICurrentUserService.cs",
+              "RelativeDocumentMoniker": "IServices\\ICurrentUserService.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\IServices\\ICurrentUserService.cs",
+              "RelativeToolTip": "IServices\\ICurrentUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T15:41:49.754Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\WeatherForecast.cs",
-              "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PortfolioController.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "Controllers\\PortfolioController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwB0AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T10:57:54.954Z"
+              "WhenOpened": "2026-02-06T12:51:42.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CurrentUserService.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Services\\CurrentUserService.cs",
+              "RelativeDocumentMoniker": "Services\\CurrentUserService.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Services\\CurrentUserService.cs",
+              "RelativeToolTip": "Services\\CurrentUserService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAIAwwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T15:36:59.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\IServices\\IEmailService.cs",
+              "RelativeDocumentMoniker": "IServices\\IEmailService.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\IServices\\IEmailService.cs",
+              "RelativeToolTip": "IServices\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T13:16:49.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T13:16:54.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\DataContext\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "DataContext\\UserDbContext.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\DataContext\\UserDbContext.cs",
+              "RelativeToolTip": "DataContext\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T23:11:20.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OAuthConfig.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Entities\\OAuthConfig.cs",
+              "RelativeDocumentMoniker": "Entities\\OAuthConfig.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Entities\\OAuthConfig.cs",
+              "RelativeToolTip": "Entities\\OAuthConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T23:14:06.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDbContextFactory.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\DataContext\\UserDbContextFactory.cs",
+              "RelativeDocumentMoniker": "DataContext\\UserDbContextFactory.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\DataContext\\UserDbContextFactory.cs",
+              "RelativeToolTip": "DataContext\\UserDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T23:34:27.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260205233545_AddOAuthConfigsTable.cs",
+              "DocumentMoniker": "D:\\Portfolio\\Backend\\Portfolio\\Migrations\\20260205233545_AddOAuthConfigsTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260205233545_AddOAuthConfigsTable.cs",
+              "ToolTip": "D:\\Portfolio\\Backend\\Portfolio\\Migrations\\20260205233545_AddOAuthConfigsTable.cs",
+              "RelativeToolTip": "Migrations\\20260205233545_AddOAuthConfigsTable.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T23:35:46.144Z"
             }
           ]
         }
